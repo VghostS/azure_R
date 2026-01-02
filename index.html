@@ -22,11 +22,21 @@
       }
 
       #unity-container {
-        width: 100%;
-        height: 100%;
         position: fixed;
         inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
       }
+
+      #unity-canvas {
+        width: 100%;
+        height: 100%;
+        max-width: 100vw;
+        max-height: 100vh;
+      }
+
 
       #unity-canvas {
         width: 100% !important;
